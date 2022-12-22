@@ -1,0 +1,87 @@
+2022-12-22 16:09:06 error: [Cake\Http\Exception\MissingControllerException] Controller class Parry could not be found. in D:\xampp\htdocs\CupCake\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 348
+Exception Attributes: array (
+  'class' => 'Parry',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- D:\xampp\htdocs\CupCake\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:74
+- D:\xampp\htdocs\CupCake\vendor\cakephp\cakephp\src\Http\BaseApplication.php:318
+- D:\xampp\htdocs\CupCake\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- D:\xampp\htdocs\CupCake\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- D:\xampp\htdocs\CupCake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\xampp\htdocs\CupCake\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- D:\xampp\htdocs\CupCake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\xampp\htdocs\CupCake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- D:\xampp\htdocs\CupCake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\xampp\htdocs\CupCake\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- D:\xampp\htdocs\CupCake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\xampp\htdocs\CupCake\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- D:\xampp\htdocs\CupCake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\xampp\htdocs\CupCake\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- D:\xampp\htdocs\CupCake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\xampp\htdocs\CupCake\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- D:\xampp\htdocs\CupCake\vendor\cakephp\cakephp\src\Http\Server.php:90
+- D:\xampp\htdocs\CupCake\webroot\index.php:40
+
+Request URL: /parry
+2022-12-22 16:46:57 error: [Error] Call to undefined method App\View\AppView::h() in D:\xampp\htdocs\CupCake\templates\Patty\index.php on line 27
+Stack Trace:
+- D:\xampp\htdocs\CupCake\vendor\cakephp\cakephp\src\View\View.php:1220
+- D:\xampp\htdocs\CupCake\vendor\cakephp\cakephp\src\View\View.php:1177
+- D:\xampp\htdocs\CupCake\vendor\cakephp\cakephp\src\View\View.php:808
+- D:\xampp\htdocs\CupCake\vendor\cakephp\cakephp\src\Controller\Controller.php:773
+- D:\xampp\htdocs\CupCake\vendor\cakephp\cakephp\src\Controller\Controller.php:556
+- D:\xampp\htdocs\CupCake\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:139
+- D:\xampp\htdocs\CupCake\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- D:\xampp\htdocs\CupCake\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- D:\xampp\htdocs\CupCake\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- D:\xampp\htdocs\CupCake\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- D:\xampp\htdocs\CupCake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\xampp\htdocs\CupCake\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- D:\xampp\htdocs\CupCake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\xampp\htdocs\CupCake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- D:\xampp\htdocs\CupCake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\xampp\htdocs\CupCake\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- D:\xampp\htdocs\CupCake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\xampp\htdocs\CupCake\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- D:\xampp\htdocs\CupCake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\xampp\htdocs\CupCake\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- D:\xampp\htdocs\CupCake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\xampp\htdocs\CupCake\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- D:\xampp\htdocs\CupCake\vendor\cakephp\cakephp\src\Http\Server.php:90
+- D:\xampp\htdocs\CupCake\webroot\index.php:40
+
+Request URL: /patty
+Referer URL: http://localhost:8765/patty/add
+2022-12-22 17:00:40 error: [TypeError] Argument 2 passed to Cake\View\Helper\NumberHelper::format() must be of the type array, int given, called in D:\xampp\htdocs\CupCake\templates\Patty\index.php on line 27 in D:\xampp\htdocs\CupCake\vendor\cakephp\cakephp\src\View\Helper\NumberHelper.php on line 154
+Stack Trace:
+- D:\xampp\htdocs\CupCake\templates\Patty\index.php:27
+- D:\xampp\htdocs\CupCake\vendor\cakephp\cakephp\src\View\View.php:1220
+- D:\xampp\htdocs\CupCake\vendor\cakephp\cakephp\src\View\View.php:1177
+- D:\xampp\htdocs\CupCake\vendor\cakephp\cakephp\src\View\View.php:808
+- D:\xampp\htdocs\CupCake\vendor\cakephp\cakephp\src\Controller\Controller.php:773
+- D:\xampp\htdocs\CupCake\vendor\cakephp\cakephp\src\Controller\Controller.php:556
+- D:\xampp\htdocs\CupCake\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:139
+- D:\xampp\htdocs\CupCake\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- D:\xampp\htdocs\CupCake\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- D:\xampp\htdocs\CupCake\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- D:\xampp\htdocs\CupCake\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- D:\xampp\htdocs\CupCake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\xampp\htdocs\CupCake\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- D:\xampp\htdocs\CupCake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\xampp\htdocs\CupCake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- D:\xampp\htdocs\CupCake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\xampp\htdocs\CupCake\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- D:\xampp\htdocs\CupCake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\xampp\htdocs\CupCake\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- D:\xampp\htdocs\CupCake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\xampp\htdocs\CupCake\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- D:\xampp\htdocs\CupCake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\xampp\htdocs\CupCake\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- D:\xampp\htdocs\CupCake\vendor\cakephp\cakephp\src\Http\Server.php:90
+- D:\xampp\htdocs\CupCake\webroot\index.php:40
+
+Request URL: /patty
+Referer URL: http://localhost:8765/patty/add
