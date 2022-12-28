@@ -31,7 +31,7 @@ up the built-in webserver with:
 ```bash
 bin/cake server -p 8765
 ```
-
+ 
 Then visit `http://localhost:8765` to see the welcome page.
 
 ## Update
