@@ -1,61 +1,70 @@
-# CakePHP Application Skeleton
+CRUD OPERATION ON CAKE PHP
+1 . INDEX PAGE
 
-![Build Status](https://github.com/cakephp/app/actions/workflows/ci.yml/badge.svg?branch=master)
-[![Total Downloads](https://img.shields.io/packagist/dt/cakephp/app.svg?style=flat-square)](https://packagist.org/packages/cakephp/app)
-[![PHPStan](https://img.shields.io/badge/PHPStan-level%207-brightgreen.svg?style=flat-square)](https://github.com/phpstan/phpstan)
+![cc1](https://user-images.githubusercontent.com/105000933/209858006-77eb2ae5-a621-4bd9-9f48-9051cfbdb752.jpg)
 
-A skeleton for creating applications with [CakePHP](https://cakephp.org) 4.x.
+In this page we List the all user records and manage the records
 
-The framework source code can be found here: [cakephp/cakephp](https://github.com/cakephp/cakephp).
+2 . SEARCH FUNCTIONALITY
 
-## Installation
+![cc2](https://user-images.githubusercontent.com/105000933/209858532-14348cd0-6625-4a8b-9953-a0c6fcd94094.jpg)
 
-1. Download [Composer](https://getcomposer.org/doc/00-intro.md) or update `composer self-update`.
-2. Run `php composer.phar create-project --prefer-dist cakephp/app [app_name]`.
+Using this search option we search a records by search user name
 
-If Composer is installed globally, run
+3. ADD USER
 
-```bash
-composer create-project --prefer-dist cakephp/app
-```
+![cc4](https://user-images.githubusercontent.com/105000933/209859212-ae56c18d-6652-4875-9937-e2bebfacbd10.jpg)
 
-In case you want to use a custom app dir name (e.g. `/myapp/`):
+After submit
 
-```bash
-composer create-project --prefer-dist cakephp/app myapp
-```
+![cc3](https://user-images.githubusercontent.com/105000933/209859301-1367b4fa-c540-448b-b22e-3d927f3f42e6.jpg)
 
-You can now either use your machine's webserver to view the default home page, or start
-up the built-in webserver with:
+In this page we add a user and save the records in database
 
-```bash
-bin/cake server -p 8765
-```
- 
-Then visit `http://localhost:8765` to see the welcome page.
+4 . Read Records via List
 
-## Update
+![cc5](https://user-images.githubusercontent.com/105000933/209859572-038d8cc5-1e9d-4b01-b0e3-e180330df598.jpg)
 
-Since this skeleton is a starting point for your application and various files
-would have been modified as per your needs, there isn't a way to provide
-automated upgrades, so you have to do any updates manually.
+In this List page we View a single user's record
 
-## Configuration
+5 . Update Records
 
-Read and edit the environment specific `config/app_local.php` and setup the 
-`'Datasources'` and any other configuration relevant for your application.
-Other environment agnostic settings can be changed in `config/app.php`.
+![cc6](https://user-images.githubusercontent.com/105000933/209859845-2339dc11-4573-4c32-b3aa-82b95d68644d.jpg)
 
-## Layout
+In this edit page we edit records and update it.
 
-The app skeleton uses [Milligram](https://milligram.io/) (v1.3) minimalist CSS
-framework by default. You can, however, replace it with any other library or
-custom styles.
+6 . Delete Records
+
+![cc7](https://user-images.githubusercontent.com/105000933/209860094-79a4c6ce-9d06-442c-bd97-9739fe07264e.jpg)
+
+If we want to delete and user from out list then use delete 
+
+How To Run Local
 
 
-HOW TO USE :
+PHP VERSION <= 7.4
+CAKE PHP Version 4.0
 
-1 . Unzop the folder
-2 . create database in your local server as cupcake
-3 . Create table patty 
-4 . Run it your local server  "cake server"
+check you php version in cmd using "php -v"
+
+Step 1 :Create Project
+
+Run this command into your shell or terminal. Make sure composer should be installed in your system.
+"composer create-project --prefer-dist cakephp/app:~4.0 CUPCAKE"
+
+Step 2 : Database Connection & Configuration
+
+	i) Create database in your local PhpMyAdmin 
+	And import the following sql file in created database
+	ii) Config\app_local.php
+	update below details
+	'username' => 'your username',
+	'password' => 'your password',
+	'database' => 'your database', 
+
+Step 3 : RUN in Local 
+	Unzip the folder and extract it,
+	
+	Go to cupcake\bin\cake server or your_project\bin\cake server
+	
+	paste it your browser 
